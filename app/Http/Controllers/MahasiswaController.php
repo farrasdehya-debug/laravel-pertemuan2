@@ -18,7 +18,7 @@ class MahasiswaController extends Controller
         'email' => 'farras.dehya@gmail.com',
         'status' => 'aktif',
     ];
-        return view('mahasiswa', compact('mahasiswa'));
+        return view('page.profile', compact('mahasiswa'));
             }
 
 }
