@@ -20,6 +20,8 @@
                 <li class="nav-item">
                     <a href="{{ url('/about') }}" class="nav-link {{ request()->is('about*') ? 'active' : '' }}">About</a>
                 </li>
+                    <a href="{{ url('/admin') }}" class="nav-link {{ request()->is('admin*') ? 'active' : '' }}">Admin</a>
+                </li>
             </ul>
         </div>
     </div>
