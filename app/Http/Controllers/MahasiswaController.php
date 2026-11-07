@@ -14,3 +14,4 @@ class MahasiswaController extends Controller
         return view('page.profile', compact('mahasiswa'));
     }
 }
+
